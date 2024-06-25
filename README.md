@@ -50,13 +50,3 @@ on `localhost:8080`.
     ```bash
     docker-compose down
     ```
-
-## To-do
-
-- [x] Connect to Kafka as Consumer
-- [x] Make Consumer Idempotent by Storing Kafka Message Key
-- [ ] Create Continuous Kafka Producer that writes a lot of messages to `commands` topic
-- [ ] Create Command Handler that Writes to the Database on Command Retrieval
-- [ ] Update Continuous Kafka Producer To Produce Different Types of Commands For The Same Aggregate
-- [ ] Update Kafka Consumer To Handle Different Types Of Commands And Store Appropriate Different Types Events
-- [ ] Test Different Sequence Guarantee and Failure Scenarios Based on Different Types Commands
